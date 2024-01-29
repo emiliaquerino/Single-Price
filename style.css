@@ -24,12 +24,13 @@ body {
     margin: auto;
     position: relative;
     overflow: hidden;
+    line-height: 25px;
     
 }
 
 .info {
     background-color: white;
-    padding: 20px;
+    padding: 25px;
 }
 
 h1 {
