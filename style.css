@@ -1,10 +1,11 @@
 /*-----------variáveis------------*/
 
-.root {
+:root {
     --Cyan: hsl(179, 62%, 43%);
     --Bright-Yellow: hsl(71, 73%, 54%);    
     --Light-Gray: hsl(204, 43%, 93%);
     --Grayish-Blue: hsl(218, 22%, 67%);
+    --Light-Cyan: hsl(178, 76%, 70%);
 }
 
 
@@ -14,14 +15,52 @@ body {
     font-size: 16px;
 }
 
-.info {
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20px;
+    background-color: var(--Light-Gray);
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    
+}
 
+.info {
+    background-color: white;
+}
+
+h1 {
+    color: var(--Cyan);
+}
+
+.info h3 {
+    color: var(--Bright-Yellow);
+}
+
+.info p {
+    color: var(--Grayish-Blue);
 }
 
 .price {
+    background-color: var(--Cyan);
+    color: white;
+}
+
+.sign-btn {
+    background-color: var(--Bright-Yellow);
+    border-radius: 5px;
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.502);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: 700;
+    margin-top: 10px;
 
 }
 
 .reasons {
-
+    background-color: var(--Light-Cyan);
+    color: white;
 }
