@@ -29,6 +29,7 @@ body {
 
 .info {
     background-color: white;
+    padding: 20px;
 }
 
 h1 {
@@ -46,6 +47,7 @@ h1 {
 .price {
     background-color: var(--Cyan);
     color: white;
+    padding: 20px;
 }
 
 .sign-btn {
@@ -63,4 +65,5 @@ h1 {
 .reasons {
     background-color: var(--Light-Cyan);
     color: white;
+    padding: 20px;
 }
