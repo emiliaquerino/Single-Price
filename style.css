@@ -37,11 +37,11 @@ html {
     align-items: center; /* Centraliza o conteúdo */
     padding: 60px 20px;
     background-color: var(--Light-Gray);
-    max-width: 1440px;
     margin: auto;
     position: relative;
     overflow: hidden;
     line-height: 25px;
+    width: 100%;
 }
 
 .info {
@@ -109,6 +109,13 @@ h1 {
     margin: 20px 0 20px 0;
 }
 
+
+.grid-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .reasons {
     display: flex;
     flex-direction: column;
@@ -128,11 +135,21 @@ h1 {
 
 /*desktop*/
 @media (min-width: 376px) {
-    .container {
-        padding: 60px;
-    }
     
-    .sign-btn {
-        width: auto;
+    .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info {
+        width: 100vh;
+    }
+
+    .grid-content {
+        display: grid;
+        width: 100vh;
+        grid-template-columns: 2fr 2fr;
     }
 }
