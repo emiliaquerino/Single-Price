@@ -45,8 +45,11 @@ html {
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     padding: 25px;
+    gap: 20px;
 }
 
 h1 {
@@ -65,15 +68,32 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 100%;
+    gap: 20px;
     background-color: var(--Cyan);
     color: white;
     padding: 20px;
 }
 
+.value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.price-value {
+    display: flex;
+}
+
+.month {
+    font-weight: 400;
+    color: var(--Light-Gray);
+    margin-left: 10px;
+}
+
 .sign-btn {
     background-color: var(--Bright-Yellow);
     border-radius: 5px;
-    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.502);
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.338);
     color: white;
     border: none;
     padding: 10px;
@@ -92,6 +112,7 @@ h1 {
     background-color: var(--Light-Cyan);
     color: white;
     padding: 20px;
+    gap: 20px;
 }
 
 /*tablet*/
