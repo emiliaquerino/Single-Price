@@ -71,13 +71,10 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 20px;
     background-color: var(--Cyan);
     color: white;
-    padding: 20px;
+    padding: 25px;
     box-shadow: 0px 0px 40px hsla(0, 0%, 3%, 0.111);
-    
-    
 }
 
 .value {
@@ -88,11 +85,7 @@ h1 {
 
 .price-month {
     display: flex;
-}
-
-.price-value p {
-    flex-direction: column;
-    gap: 10px;
+    margin-top: 20px;
 }
 
 .month {
@@ -113,7 +106,7 @@ h1 {
     text-align: center; 
     display: inline-block; 
     text-decoration: none; 
-    margin: 10px 0 20px 0;
+    margin: 20px 0 20px 0;
 }
 
 .reasons {
@@ -121,14 +114,17 @@ h1 {
     flex-direction: column;
     width: 100%;
     background-color: var(--Light-Cyan);
-    color: white;
-    padding: 20px;
+    color: var(--Light-Gray);
+    padding: 25px;
     gap: 20px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     box-shadow: 0px 0px 40px hsla(0, 0%, 3%, 0.111);
 }
 
+.reasons h3 {
+    color: white;
+}
 
 /*desktop*/
 @media (min-width: 376px) {
