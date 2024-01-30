@@ -50,6 +50,9 @@ html {
     background-color: white;
     padding: 25px;
     gap: 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 0px 0px 40px hsla(0, 0%, 3%, 0.111);
 }
 
 h1 {
@@ -72,6 +75,9 @@ h1 {
     background-color: var(--Cyan);
     color: white;
     padding: 20px;
+    box-shadow: 0px 0px 40px hsla(0, 0%, 3%, 0.111);
+    
+    
 }
 
 .value {
@@ -80,8 +86,13 @@ h1 {
     margin-bottom: 10px;
 }
 
-.price-value {
+.price-month {
     display: flex;
+}
+
+.price-value p {
+    flex-direction: column;
+    gap: 10px;
 }
 
 .month {
@@ -93,16 +104,16 @@ h1 {
 .sign-btn {
     background-color: var(--Bright-Yellow);
     border-radius: 5px;
-    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.338);
+    box-shadow: 0px 10px 5px hsla(0, 0%, 3%, 0.111);
     color: white;
     border: none;
     padding: 10px;
     font-weight: 700;
-    margin-top: 10px;
     width: 100%;
     text-align: center; 
     display: inline-block; 
     text-decoration: none; 
+    margin: 10px 0 20px 0;
 }
 
 .reasons {
@@ -113,15 +124,14 @@ h1 {
     color: white;
     padding: 20px;
     gap: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0px 0px 40px hsla(0, 0%, 3%, 0.111);
 }
 
-/*tablet*/
-@media (min-width: 768px) {
-    /* sem regras específicas para tablets */
-}
 
 /*desktop*/
-@media (min-width: 1024px) {
+@media (min-width: 376px) {
     .container {
         padding: 60px;
     }
